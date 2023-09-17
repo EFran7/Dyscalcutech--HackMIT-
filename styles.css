@@ -1,0 +1,55 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+/* HEADER */
+h1,
+h2 {
+  text-align: center;
+  font-family: "Press Start 2P", sans-serif;
+}
+
+h1 {
+  font-size: 6.5vw;
+  margin: 0 3vw 2vw 3vw;
+}
+
+h2 {
+  font-size: 3.8vw;
+  text-align: left;
+  margin-left: 17vw;
+  margin-top: 10vw;
+}
+
+header p {
+  color: #979797;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+div #visual-content-container {
+  width: 60vw;
+  height: auto;
+  background-color: #979797;
+}
+
+div#description-container {
+  width: 60vw;
+  height: auto;
+}
+
+div#animation-container {
+  width: 60vw;
+  height: auto;
+}
