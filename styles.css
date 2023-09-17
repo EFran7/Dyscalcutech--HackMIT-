@@ -80,6 +80,7 @@ header p {
   height: 100%;
   background-color: #979797;
   border-radius: 10px;
+  position: relative;
 }
 
 button {
@@ -90,8 +91,35 @@ button {
   border: none;
 }
 
-button:hover {
+.ex-block {
+  width: 2vw;
+  height: 2vw;
+  background-color: blue;
+  padding: 2vw;
+  position: absolute;
+  top: 32%;
+  left: 38%;
 }
+
+.animation-container:nth-child(1) {
+  display: none;
+}
+.animation-container:nth-child(2) {
+  display: none;
+}
+.animation-container:nth-child(3) {
+  display: none;
+}
+.animation-container:nth-child(4) {
+  display: none;
+}
+.animation-container:last-child {
+  display: none;
+}
+
+/* button:hover {
+
+} */
 
 input {
   width: 100%;
