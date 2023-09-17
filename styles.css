@@ -10,6 +10,8 @@
 body {
   background-color: #1e1e1e;
   color: #ffffff;
+  width: 100%;
+  height: 100%;
 }
 
 /* HEADER */
@@ -33,23 +35,27 @@ h2 {
 
 header p {
   color: #979797;
-  font-size: 30px;
+  font-size: 3vw;
   text-align: center;
   font-family: "Space Grotesk", sans-serif;
+  margin-bottom: 2vw;
 }
 
 div #visual-content-container {
   width: 60vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+div #description-container {
+  width: 60%;
   height: auto;
   background-color: #979797;
 }
 
-div#description-container {
+div #animation-container {
   width: 60vw;
   height: auto;
-}
-
-div#animation-container {
-  width: 60vw;
-  height: auto;
+  background-color: #979797;
 }
