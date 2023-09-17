@@ -12,6 +12,10 @@ body {
   color: #ffffff;
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* HEADER */
@@ -30,32 +34,70 @@ h2 {
   font-size: 3.8vw;
   text-align: left;
   margin-left: 17vw;
-  margin-top: 10vw;
+  margin-top: 5vw;
 }
 
 header p {
   color: #979797;
-  font-size: 3vw;
+  font-size: 1.8vw;
   text-align: center;
   font-family: "Space Grotesk", sans-serif;
   margin-bottom: 2vw;
 }
 
-div #visual-content-container {
-  width: 60vw;
-  height: 100px;
+/* @media screen only (max-width: 1200) {
+  h1 {
+    font-size: 5.5vw;
+  }
+} */
+
+#main {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-div #description-container {
+#visual-content-container {
+  width: 50.8vw;
+  height: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2vw;
+}
+
+#description-container {
+  width: 40%;
+  height: 100%;
+  background-color: #979797;
+  margin: 0 1vw;
+  border-radius: 10px;
+}
+
+#animation-container {
   width: 60%;
-  height: auto;
+  height: 100%;
   background-color: #979797;
+  border-radius: 10px;
 }
 
-div #animation-container {
-  width: 60vw;
-  height: auto;
-  background-color: #979797;
+button {
+  width: 3vw;
+  height: 2.5vw;
+  margin: 1.1vw 0;
+  border-radius: 50%;
+  border: none;
+}
+
+input {
+  width: 80%;
+  height: 3vw;
+  border: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
