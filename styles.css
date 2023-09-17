@@ -101,19 +101,21 @@ button {
   left: 38%;
 }
 
-.animation-container:nth-child(1) {
+/* Animation Blocks -to be styled- */
+
+#one {
   display: none;
 }
-.animation-container:nth-child(2) {
+#two {
   display: none;
 }
-.animation-container:nth-child(3) {
+#three {
   display: none;
 }
-.animation-container:nth-child(4) {
+#four {
   display: none;
 }
-.animation-container:last-child {
+#five {
   display: none;
 }
 
